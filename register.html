@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Register Page</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="https://cginfinity.com/">
+            <img src="https://cginfinity.com/wp-content/uploads/2022/04/cgi-logo.svg" alt="cg">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto navbar-list">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Login</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="register.html">Register</a><span class="sr-only">(current)</span>
+                </li>
+                <li class="nav-item dropdown">
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="sidebar">
+        <ul style="list-style: none;margin-block:0;padding: 0;">
+            <li>
+                <div style="display: flex;align-items: flex-end;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+                        class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    </svg>
+                    <p class="hide">Profile</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="container-div">
+        <div class="main-div">
+            <div class="image">
+                <img src="https://codequotient.com/blog/wp-content/uploads/2021/03/Best-Tech-Companies-to-Work-for-in-India-in-2021.jpg"
+                    alt="image">
+            </div>
+
+            <div class="login">
+                <form>
+                    <h1>Register</h1><br>
+                    <div style="gap: 20px; display: grid;grid-template-columns: 1fr 1fr;padding: 10px;">
+                        <div class="input-div"><label for="fullName">Full Name</label><input type="text" id="fullName"
+                                placeholder="Enter Name.." /></div>
+                        <div class="input-div"><label for="email">Email</label><input type="email" id="email"
+                                placeholder="Enter email" /></div>
+                        <div class="input-div"><label for="Country">Country</label><input type="text" id="Country"
+                            placeholder="Enter country">
+                        </div>
+                        <div class="input-div"><label for="Password">Password</label><input type="password"
+                                id="Password" placeholder="Enter password"  /></div>
+
+                    </div>
+                    <a style="width: 80%;" href="index.html">
+                        <button
+                            style="width: 100%;border:none;padding: 8px;background-color: rgb(28, 172, 216);color:white;"
+                            type="button">
+                            Sign Up
+                        </button>
+                    </a>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+</body>
+
+</html>
